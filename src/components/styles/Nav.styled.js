@@ -4,8 +4,6 @@ import {themes} from "./Themes";
 export const StyledNav = styled.nav`
   width: 100vw;
   background-color: black;
-  
-
 
   ul {
     display: flex;
@@ -15,13 +13,15 @@ export const StyledNav = styled.nav`
     list-style-type: none;
     padding: 0;
     margin: 0;
-    color: ${themes.colorCodes.electricBlue};
+    // color: ${themes.colorCodes.electricBlue};
   }
   
   li {
     display: block;
+    color: ${themes.colorCodes.electricBlue};
   }
   
+   
   
   ul li:first-child {
     order: 2;
@@ -51,28 +51,14 @@ export const StyledNav = styled.nav`
     color: ${themes.colorCodes.electricBlue}
   }
   
-  li .navLink:hover,
-  li .socialIcon:hover {
+  .navLink:hover,
+  .socialIcon:hover {
       color: ${themes.colorCodes.red}
+  }
+
+  li:hover {
+    color: ${themes.colorCodes.red};
+
   }
   
 `
-//     nav ul {
-//         justify-content: flex-end;
-//     }
-//
-//     nav li:first-child {
-//         flex-basis: auto;
-//         margin: 0 auto;
-//         order: 2;
-//     }
-//
-//     nav li:nth-child(2),
-//     nav li:nth-child(3) {
-//         order: 1;
-//     }
-//
-//     nav li:nth-child(4),
-//     nav li:nth-child(5) {
-//         order: 3;
-//     }

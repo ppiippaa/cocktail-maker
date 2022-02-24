@@ -1,51 +1,47 @@
+/*
+#370622
+#6E35A9
+*/
+
 .controls {
     color: white;
-    border: 1px solid red;
-
+    margin: 2rem 0 4rem 0;
+    border-left: 1px solid #6E35A9;
+    border-top: 1px solid #6E35A9;
+    border-radius: 25px;
+    padding: 1rem;
+    flex-basis: 50%
 }
 
 .logo-pic {
-    border: 1px solid red;
+    margin: 2rem 0 4rem 0;
+    border-left: 1px solid #6E35A9;
+    border-top: 1px solid #6E35A9;
+    border-radius: 25px;
+    padding: 1rem;
     height: 500px;
-    width: 250px;
+    flex-basis: 30%
+}
+
+.logo-pic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
 }
 
 .flex-row {
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 8%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
-/*.controls {*/
-/*    margin: 2rem 1rem;*/
-/*    display: grid;*/
-/*    padding: 3rem;*/
-/*    grid-template-columns: 1fr 1fr;*/
-/*    justify-content: space-evenly;*/
-/*    background-color: #000;*/
-/*    min-height: 400px;*/
-/*    min-width: 600px;*/
-/*    width: 80%;*/
-/*}*/
 
-/*.link {*/
-/*    text-decoration: none;*/
-/*    background-color: lightgray;*/
-/*    height: 2rem;*/
-/*    width: auto;*/
-/*    border-radius: 5px;*/
-/*    text-align: center;*/
-/*}*/
+.renderedCocktails {
+    margin: 0 auto;
+}
 
-/*.link:hover {*/
-/*    cursor: pointer;*/
-/*    background-color: lightpink;*/
-/*}*/
 
-/*.renderedCocktails {*/
-/*    display: flex;*/
-/*    flex-flow: row wrap;*/
-/*    gap: 3%;*/
-/*    justify-content: space-evenly;*/
-/*}*/
 

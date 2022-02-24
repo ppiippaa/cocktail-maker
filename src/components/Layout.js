@@ -15,7 +15,6 @@ const Layout = ({children}) => {
             {children}
             </div>
             <Footer />
-            // ADD CUSTOM FOOTER COMPONENT HERE
         </StyledLayout>
     );
 };

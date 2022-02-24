@@ -10,7 +10,7 @@ import DisplayCocktail from "../components/DisplayCocktail";
 import {StyledCocktailGrid} from "../components/styles/CocktailGrid.styled";
 import '../components/Homepage.css';
 import {StyledSearchForm} from "../components/styles/SearchForm.styled";
-
+import homepageImage from '../media/homepageImage.jpg'
 
 
 const Homepage = () => {
@@ -94,7 +94,7 @@ const Homepage = () => {
                     <ButtonRandomCocktail randomCocktail={randomCocktailHandler}/>
                 </div>
                 <div className='logo-pic'>
-                    <img src="../media/homepageImage.jpg" alt=""/>
+                    <img src={homepageImage} alt=""/>
                 </div>
             </div>
 
@@ -107,7 +107,7 @@ const Homepage = () => {
                 }
                 {
                     drinks.length > 0 && (
-                        <div class='renderedCocktails'>
+                        <div className='renderedCocktails'>
                         <StyledCocktailGrid>
                             {
                                 drinks.map(drink =>

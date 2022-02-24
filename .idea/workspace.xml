@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71337059-9bc6-45e8-8033-337914cd52b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Homepage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/ButtonRandomCocktail.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/CocktailGrid.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/Footer.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/Nav.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/SearchForm.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/homepageImage.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
@@ -33,15 +24,14 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonRandomCocktail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonRandomCocktail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchIngredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchIngredient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchName.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/CocktailGrid.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/CocktailGrid.styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/DisplayCocktail.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/DisplayCocktail.styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/Footer.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Footer.styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/Layout.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Layout.styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/Nav.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Nav.styled.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/Themes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Themes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage.js" afterDir="false" />
     </list>
@@ -74,7 +64,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/frontend-masters/collections" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/media" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,9 +79,10 @@
       <recent name="C:\Users\pippa\portfolio-projects\cocktails\src\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pippa\portfolio-projects\cocktails\src" />
+      <recent name="C:\Users\pippa\portfolio-projects\cocktails\public" />
       <recent name="C:\Users\pippa\portfolio-projects\cocktails\src\pages" />
       <recent name="C:\Users\pippa\portfolio-projects\cocktails\src\utils" />
-      <recent name="C:\Users\pippa\portfolio-projects\cocktails\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -123,6 +114,8 @@
       <workItem from="1642863699389" duration="4356000" />
       <workItem from="1642959108116" duration="6412000" />
       <workItem from="1645624933723" duration="5892000" />
+      <workItem from="1645630884764" duration="607000" />
+      <workItem from="1645692833188" duration="5353000" />
     </task>
     <servers />
   </component>

@@ -2,8 +2,10 @@ import styled from 'styled-components';
 
 export const StyledCocktailGrid = styled.div`
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-gap: 3%;
+  grid-template-columns: 25% 25% 25%;
   margin: 0 2rem;
-  width: 80%;
+  width: 100%; 
+  
+  
+  
 `

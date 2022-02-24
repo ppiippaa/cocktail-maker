@@ -1,6 +1,27 @@
 import styled from 'styled-components';
 
 export const StyledDisplayCocktail = styled.div`
+  border-radius: 25px;
+  color: white;
+  margin: 2rem 0 4rem 0;
+  border-left: 1px solid #6E35A9;
+  border-top: 1px solid #6E35A9;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+
+  
+  ul {
+    list-style-type: square;
+  }
+  
+  ul li {
+    padding: .5rem;
+  }
+  
   //height: auto;
   //flex-basis: 31%;
   //display: flex;
