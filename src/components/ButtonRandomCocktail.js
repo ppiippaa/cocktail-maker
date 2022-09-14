@@ -4,7 +4,7 @@ import {StyledButtonRandomCocktail} from "./styles/ButtonRandomCocktail.styled";
 const ButtonRandomCocktail = ({randomCocktail}) => {
     return (
         <StyledButtonRandomCocktail>
-            <button onClick={randomCocktail}>Give me a random cocktail!</button>
+            <button onClick={randomCocktail}>random cocktail</button>
         </StyledButtonRandomCocktail>
     );
 }

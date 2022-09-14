@@ -2,7 +2,7 @@ import React, {createContext, useState} from 'react';
 import {getFromLocalStorage} from "../utils/helpers/localStorage";
 
 
-const FavouriteDrinksContext = createContext()
+const FavouriteDrinksContext = createContext();
 
 const FavouriteDrinksProviderWrapper = ({children}) => {
     const [favourites, setFavourites] = useState(getFromLocalStorage() || [])

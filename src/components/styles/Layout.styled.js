@@ -3,7 +3,7 @@ import {themes} from "./Themes";
 
 export const StyledLayout = styled.div`
 
-  @import url('https://fonts.googleapis.com/css2?family=Charmonman&family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap');
   
   background-color: ${themes.colorCodes.black};
   display: flex;

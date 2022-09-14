@@ -3,7 +3,15 @@ import {themes} from "./Themes";
 
 export const StyledNav = styled.nav`
   width: 100vw;
+  margin-bottom: 20px;
   background-color: black;
+  
+  .border-gradient {
+    background: rgb(29,64,220);
+    background: linear-gradient(159deg, rgba(29,64,220,1) 0%, rgba(146,70,224,1) 99%);
+    height: 10px;
+    width: 10px;
+  }
 
   ul {
     display: flex;
@@ -13,52 +21,53 @@ export const StyledNav = styled.nav`
     list-style-type: none;
     padding: 0;
     margin: 0;
-    // color: ${themes.colorCodes.electricBlue};
+    color: ${themes.colorCodes.electricBlue};
   }
   
   li {
     display: block;
-    color: ${themes.colorCodes.electricBlue};
+    letter-spacing: .1rem;
+    align-self: flex-start;
   }
   
-   
   
   ul li:first-child {
     order: 2;
     flex-basis: auto;
     margin: 0 auto;
-    color: ${themes.colorCodes.red};
-    font-size: 1.2rem;
-    
+    color: ${themes.colorCodes.lightPurple};
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    font-family: ${themes.fontFamilies.accentFont};
+    max-height: 50px;
   }
+  
   
   ul li:nth-child(2),
   ul li:nth-child(3) {
     order: 1;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   ul li:nth-child(4),
   ul li:nth-child(5),
   ul li:nth-child(6) {
     order: 3;
-    padding: 1rem;
+    padding: 1.5rem;
   }
   
-  .link,
-  a {
+  ul li:nth-child(6) {
+    margin-right: 1rem;
+    padding-top: 1.8rem;
+  }
+  
+  .link {
     text-decoration: none;
     color: ${themes.colorCodes.electricBlue}
   }
   
-  .navLink:hover,
-  .socialIcon:hover {
-      color: ${themes.colorCodes.red}
-  }
-
-  li:hover {
-    color: ${themes.colorCodes.red};
-
+  .link:hover {
+      color: ${themes.colorCodes.lightPurple}
   }
   
 `

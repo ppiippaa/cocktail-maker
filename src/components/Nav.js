@@ -4,37 +4,45 @@ import {Link} from "react-router-dom";
 import {EmailOutline} from "@styled-icons/evaicons-outline/EmailOutline";
 import {Instagram} from "@styled-icons/boxicons-logos/Instagram";
 import {Facebook} from "@styled-icons/entypo-social/Facebook";
+import {DrinksContext} from "../state/DrinksContext";
+import { useContext} from "react";
 
 export const Nav = () => {
+    const { setDrinks } = useContext(DrinksContext)
+
+    const handleNavigate = () => {
+        setDrinks([])
+    }
+
     return (
             <StyledNav>
                 <ul>
                     <li>
-                        <h1>Cocktails</h1>
+                        <h1>Cocktail Maker</h1>
                     </li>
                     <li>
-                        <Link to='/favourites' className='navLink' class='link'>Favourites</Link>
+                        <Link onClick={handleNavigate} to='/favourites' className='link'>Favourites</Link>
                     </li>
                     <li>
-                        <Link to='/' className='navLink' class='link'>Search</Link>
+                        <Link onClick={handleNavigate} to='/' className='link'>Search</Link>
                     </li>
 
                     <li>
                         <a href="#">
-                            <EmailOutline size='50' className='socialIcon'/>
+                            <EmailOutline size='40' className='link'/>
                         </a>
 
                     </li>
                     <li>
                         <a href="#">
-                            <Instagram size='50' className='socialIcon'/>
+                            <Instagram size='40' className='link'/>
                         </a>
 
 
                     </li>
                     <li>
                         <a href="#">
-                            <Facebook size='40' className='socialIcon'/>
+                            <Facebook size='32' className='link'/>
                         </a>
 
                     </li>

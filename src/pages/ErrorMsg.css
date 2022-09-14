@@ -1,0 +1,11 @@
+:root {
+    --lightPurple: #9246e0;
+    --electricBlue: #1D40DC;
+    --lightGrey: #adacb0;
+    --generalFont: '"Montserrat", sans-serif';
+}
+
+.error-msg-container {
+    color: var(--lightGrey);
+}
+

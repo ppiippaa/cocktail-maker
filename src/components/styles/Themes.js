@@ -1,20 +1,17 @@
 export const themes = {
+
     colorCodes: {
         black: 'black',
         electricBlue: '#1D40DC',
-        red: '##F41515',
-        lightPurple: '#6E35A9',
-        darkPurple: '#370622'
+        red: '#F41515',
+        lightPurple: '#9246e0',
+        lightGrey: '#adacb0',
+
+
     },
     fontFamilies: {
-        accentFont: '"Charmonman", cursive',
+        accentFont: '"Permanent Marker", serif',
         generalFont: '"Montserrat", sans-serif'
     }
 }
 
-
-
-
-// electric blue 6C51D9
-// electric red
-// black

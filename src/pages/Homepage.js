@@ -8,9 +8,9 @@ import SearchName from "../components/SearchName";
 import ErrorMsg from "./ErrorMsg";
 import DisplayCocktail from "../components/DisplayCocktail";
 import {StyledCocktailGrid} from "../components/styles/CocktailGrid.styled";
-import '../components/Homepage.css';
-import {StyledSearchForm} from "../components/styles/SearchForm.styled";
-import homepageImage from '../media/homepageImage.jpg'
+import '../components/styles/Homepage.css';
+import homepageImage from '../media/homepageImage.jpg';
+import '../components/styles/Homepage.css';
 
 
 const Homepage = () => {
@@ -48,11 +48,13 @@ const Homepage = () => {
                 const allDrinks = response.data['drinks'].map(drink => transformDrinkData(drink))
                 setDrinks(allDrinks)
                 setFetchError(false)
+
             }).catch(error => {
             console.log(`Sorry, no cocktails containing ${ingredient} were found`)
             setFetchError(true)
 
         })
+
     }
 
 
@@ -75,55 +77,64 @@ const Homepage = () => {
             }).catch(error => {
             console.log(`Sorry, we couldn't find ${searchName}`)
             setFetchError(true)
-
         })
+
+    }
+
+    const clearNameInput = () => {
+        setSearchName('');
     }
 
 
-
     return (
-        <div>
-            <div className='flex-row'>
-                <div className="controls">
-                    <StyledSearchForm>
-                        <SearchIngredient ingredientChange={handleIngredientChange} submitIngredientSearch={searchIngredients}/>
-                    </StyledSearchForm>
-                    <StyledSearchForm>
-                        <SearchName nameChange={handleNameChange} submitNameSearch={searchCocktailName}/>
-                    </StyledSearchForm>
-                    <ButtonRandomCocktail randomCocktail={randomCocktailHandler}/>
+            <div className="main-container">
+                <div className='flex-row landing-container'>
+                    <div className='logo-container'>
+                        <img src={homepageImage} alt="logo" className="logo"/>
+                    </div>
+
+
+
+                    <div className="controls">
+                            <SearchIngredient ingredientChange={handleIngredientChange}
+                                              submitIngredientSearch={searchIngredients}
+
+                            />
+                            <SearchName nameChange={handleNameChange}
+                                        submitNameSearch={searchCocktailName}
+                                        clearNameInput={clearNameInput}
+                            />
+                        <ButtonRandomCocktail randomCocktail={randomCocktailHandler}/>
+                    </div>
+
+
+
                 </div>
-                <div className='logo-pic'>
-                    <img src={homepageImage} alt=""/>
-                </div>
-            </div>
-
-
-
                 {
-                    fetchError && (
-                        <ErrorMsg/>
-                    )
-                }
-                {
-                    drinks.length > 0 && (
+                    fetchError ? <div className='error-container'><ErrorMsg/></div> : (
                         <div className='renderedCocktails'>
-                        <StyledCocktailGrid>
-                            {
-                                drinks.map(drink =>
-                                    <DisplayCocktail
-                                        drink={drink}
-                                        key={drink.id}
-                                        searchCocktailName={searchCocktailName}
-                                    />)
-                            }
-                        </StyledCocktailGrid>
+                            <StyledCocktailGrid>
+                                {
+                                    drinks.map(drink =>
+                                        <DisplayCocktail
+                                            drink={drink}
+                                            key={drink.id}
+                                            searchCocktailName={searchCocktailName}
+                                        />)
+                                }
+                            </StyledCocktailGrid>
                         </div>
                     )
                 }
+
             </div>
 
     )
+
+
 };
 
+
 export default Homepage;
+
+

@@ -1,10 +1,11 @@
 import React from 'react';
+import {StyledErrorMsg} from "../components/styles/ErrorMsg.styled";
 
 const ErrorMsg = () => {
     return (
-        <div>
+        <StyledErrorMsg>
             <h2>No Cocktails Found</h2>
-        </div>
+        </StyledErrorMsg>
     );
 };
 

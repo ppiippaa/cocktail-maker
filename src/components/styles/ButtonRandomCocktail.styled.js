@@ -3,16 +3,18 @@ import {themes} from "./Themes";
 
 
 export const StyledButtonRandomCocktail = styled.div`
-//     button {
-//       height: 2rem;
-//       border-radius: 5px;
-//       background-color: ${themes.colorCodes.lightGrey};
-//       color: ${themes.colorCodes.dark};
-//       font-family: Montserrat, sans-serif ;
-//     }
-//
-//     button:hover {
-//       background-color: ${themes.colorCodes.lightPurple};
-//       cursor: pointer;
-//     }
-// `
+    button {
+      border-radius: 10px;
+      font-family: ${themes.fontFamilies.generalFont}, sans-serif;
+      background-color: ${themes.colorCodes.electricBlue};
+      margin-top: 15px;
+      padding: 8px 10px 8px 10px;
+      text-transform: uppercase;
+      max-width: 90%;
+      font-weight: bold;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+`

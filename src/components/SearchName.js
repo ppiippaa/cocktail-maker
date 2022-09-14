@@ -1,10 +1,9 @@
 import React from 'react';
-import SearchButton from "./SearchButton";
+import {StyledSearchForm} from "./styles/SearchForm.styled";
 
-const SearchName = ({nameChange, submitNameSearch}) => {
+const SearchName = ({nameChange, submitNameSearch, clearNameInput}) => {
     return (
-        <>
-
+        <StyledSearchForm>
             <form onSubmit={submitNameSearch}>
                 <h4>Search Cocktail Name</h4>
                 <input
@@ -12,10 +11,9 @@ const SearchName = ({nameChange, submitNameSearch}) => {
                     onChange={nameChange}
                     required
                 />
-                {/*<SearchButton />*/}
-                <button type='submit'>search</button>
+                <button type='submit' onClick={clearNameInput}>search</button>
             </form>
-        </>
+        </StyledSearchForm>
     );
 }
 

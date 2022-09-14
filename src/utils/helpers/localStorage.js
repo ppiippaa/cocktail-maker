@@ -2,7 +2,6 @@ const LOCAL_STORAGE = 'cocktail-favourites'
 
 const addToLocalStorage = (drinksToAdd) => {
     const drinks = JSON.stringify(drinksToAdd)
-    // add thing here
     localStorage.setItem(LOCAL_STORAGE, drinks)
 }
 

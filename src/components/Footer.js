@@ -7,7 +7,7 @@ export const Footer = () => {
     return (
         <FooterStyled>
             <span>
-                <h5>Cocktails &copy;</h5>
+                <h5>Cocktail Maker &copy;</h5>
             </span>
             <span>
                 <h5>{date}</h5>
