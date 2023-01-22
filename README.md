@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Coctail Maker
+
+Get cocktail recipes and inspiration from [thecocktaildb](https://www.thecocktaildb.com/) API. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Technologies include ReactJS, Axios and Styled Components.
 
 ## Available Scripts
 
