@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71337059-9bc6-45e8-8033-337914cd52b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-    </list>
+    <list default="true" id="71337059-9bc6-45e8-8033-337914cd52b6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +95,7 @@
       <workItem from="1665141769124" duration="29000" />
       <workItem from="1665141863140" duration="279000" />
       <workItem from="1669626917073" duration="556000" />
-      <workItem from="1674407977421" duration="693000" />
+      <workItem from="1674407977421" duration="1065000" />
     </task>
     <servers />
   </component>
