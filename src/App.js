@@ -18,6 +18,7 @@ const App = () => {
                     <Layout>
                         <Routes>
                             <Route path='/' element={<Homepage/>} exact/>
+                            <Route path='/cocktail-maker' element={<Homepage/>} exact/>
                             <Route path='/favourites' element={<FavouriteDrinks/>}/>
                             <Route path='/error' element={<ErrorMsg/>}/>
                             <Route path='/results' element={<DisplayCocktail/>}/>
