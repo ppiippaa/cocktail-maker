@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cocktail-maker/static/css/main.ed3db8a7.css",
+    "main.js": "/cocktail-maker/static/js/main.a52dac0a.js",
+    "static/media/isNotFavouriteHeart.png": "/cocktail-maker/static/media/isNotFavouriteHeart.dbb2286bf33cc33cdd6d.png",
+    "static/media/isFavouriteHeart.png": "/cocktail-maker/static/media/isFavouriteHeart.90050ae80318f95fa8f0.png",
+    "static/media/homepageImage.jpg": "/cocktail-maker/static/media/homepageImage.5a56c3ddcb88bda1f13d.jpg",
+    "index.html": "/cocktail-maker/index.html",
+    "main.ed3db8a7.css.map": "/cocktail-maker/static/css/main.ed3db8a7.css.map",
+    "main.a52dac0a.js.map": "/cocktail-maker/static/js/main.a52dac0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed3db8a7.css",
+    "static/js/main.a52dac0a.js"
+  ]
+}
